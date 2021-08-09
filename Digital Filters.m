@@ -32,12 +32,12 @@ X_10_1=fftshift(fft(x_10(20000+(1:16384)),65536));
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Lowpass Filter Design Specifications:
-% ·	Lowpass filter 
-% ·	Passband cutoff frequency = 7 kHz
-% ·	Stopband cutoff frequency = 9 kHz
-% ·	Sampling Frequency = 44.1 kHz  (frequencies of interest 0 to 22.05 kHz)
-% ·	At least 60 dB of stopband attenuation
-% ·	No more than 1 dB passband ripple
+% Â·	Lowpass filter 
+% Â·	Passband cutoff frequency = 7 kHz
+% Â·	Stopband cutoff frequency = 9 kHz
+% Â·	Sampling Frequency = 44.1 kHz  (frequencies of interest 0 to 22.05 kHz)
+% Â·	At least 60 dB of stopband attenuation
+% Â·	No more than 1 dB passband ripple
 
 rp=1;    % specify passband ripple in dB
 rs=60;    % specify stopband attenuation in dB
